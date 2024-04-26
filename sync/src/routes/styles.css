@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../lib/assets/Montserrat-VariableFont_wght.ttf') format('woff');
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1F1F1F;
+  font-family: 'Montserrat';
+  color: white;
+}
+
+button {
+  font-family: 'Montserrat';
+}
+
+input {
+  font-family: 'Montserrat';
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F95079;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ad576d;
+}
